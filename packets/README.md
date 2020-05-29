@@ -12,7 +12,7 @@ out what the correct way to parse the packet is.
 * `authoritative.pcap`: Generated with `dig @198.41.0.4 example.com`. Request + response to an authoritative root nameserver to get the NS records for `example.com`. You'll need to make requests like this to an authoritative nameserver and parse the response.
 
 If you want, you can also generate your own pcap files with other cases you
-want to test with `sudo tcpdump -i any -p 53 -w output.pcap`.
+want to test with `sudo tcpdump -i any -p 53 -w output.pcap`. You can get the `.txt` version in Wireshark by right clicking the DNS section -> Copy -> Copy as hex stream.
 
 ### example of how to use the `.txt` file in a test
 
